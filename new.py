@@ -1,9 +1,4 @@
-n=int(input("enter the number of terms of fibbonacci series"))
-fib[n]=[0]*n
-
-fib[0]=0
-fib[1]=1
-for i in range(2,n+1):
-  fib[i-1]=fib[i-1]+fib[i-2]
-print (fib[n])
-
+import numpy as n
+arr=n.array([1,32,2,3,4,2])
+print (arr)
+print(n.__version__)
