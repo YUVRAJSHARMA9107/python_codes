@@ -1,4 +1,5 @@
-import numpy as n
-arr=n.array([1,32,2,3,4,2])
-print (arr)
-print(n.__version__)
+import numpy as nd
+array=nd.array([1,3,2,1,3])
+print(array)
+print(type(array))
+print(nd.__version__)
